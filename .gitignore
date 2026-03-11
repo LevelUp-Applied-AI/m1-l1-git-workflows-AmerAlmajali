@@ -1,4 +1,4 @@
-.venv/
+
 # Python
 __pycache__/
 *.pyc
@@ -7,6 +7,23 @@ __pycache__/
 # Jupyter
 .ipynb_checkpoints/
 
+# Virtual environment:
+.venv/
+
+# Secrets and credentials
+.env
+*.key
+*.pem
+
+# Data files (never commit raw data to Git)
+*.csv
+*.parquet
+*.xlsx
+data/raw/
+
+# OS artifacts
+.DS_Store
+Thumbs.db
 # Add more patterns here:
 # - Virtual environment: .venv/
 # - Data files: *.csv, *.parquet, *.xlsx, data/raw/
